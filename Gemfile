@@ -34,5 +34,7 @@ gem 'puma'
 # Deploy with Capistrano
 # gem 'capistrano', group: :development
 
-# To use debugger
-gem 'debugger', group: :development
+group :development do
+  gem 'debugger'
+  gem 'annotate'
+end
