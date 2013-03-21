@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130321144333) do
+ActiveRecord::Schema.define(version: 20130321150144) do
 
   create_table "connectors", force: true do |t|
     t.string   "title"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20130321144333) do
     t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "sku"
   end
 
 end

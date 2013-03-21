@@ -12,6 +12,7 @@
 #  type         :string(255)
 #  created_at   :datetime
 #  updated_at   :datetime
+#  sku          :string(255)
 #
 
 class Parts < ActiveRecord::Base
