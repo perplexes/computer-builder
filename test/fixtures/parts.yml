@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  model: MyString
+  newegg_sku: MyString
+  newegg_price: 1
+  brand: MyString
+  series: MyString
+  type: 
+
+two:
+  title: MyString
+  model: MyString
+  newegg_sku: MyString
+  newegg_price: 1
+  brand: MyString
+  series: MyString
+  type: 
